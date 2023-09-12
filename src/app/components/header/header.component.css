@@ -2936,6 +2936,18 @@ div.fancy-select ul.options li.hover {
     transform: translateY(-37%)
 }
 
+.main {
+    background-image: url(./static/img/main.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative
+}
+
+.main.main--automation {
+    /* background-image: url(../img/automation-bg.jpg) */
+    background-image: url(./static/img/main.png);
+}
+
 .header__inner {
     padding: 2.292vw 0;
     display: flex;

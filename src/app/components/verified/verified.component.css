@@ -1619,6 +1619,7 @@ textarea::placeholder {
     color: #fff !important
 }
 
+
 .wac {
     color: #3fbf3f !important
 }
@@ -2942,6 +2943,8 @@ div.fancy-select ul.options li.hover {
     align-items: center;
     justify-content: space-between
 }
+
+
 
 .logo {
     display: flex;
@@ -4516,7 +4519,7 @@ div.fancy-select ul.options li.hover {
 }
 
 .verified {
-    padding-top: 0
+    padding-top: 0;
 }
 
 .partners-items.partners-items--checked {
@@ -6413,6 +6416,11 @@ html {
     opacity: 1;
     pointer-events: none;
 }
+
+.hide {
+    display: none;
+}
+
 @media (max-width: 900px) {
     .modal__close {
         top: 1rem;

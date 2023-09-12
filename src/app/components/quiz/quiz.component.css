@@ -1619,6 +1619,7 @@ textarea::placeholder {
     color: #fff !important
 }
 
+
 .wac {
     color: #3fbf3f !important
 }
@@ -2942,6 +2943,8 @@ div.fancy-select ul.options li.hover {
     align-items: center;
     justify-content: space-between
 }
+
+
 
 .logo {
     display: flex;
@@ -5533,6 +5536,10 @@ p.has-square::before {
     border-color: #d60c19
 }
 
+.quiz-right {
+    margin-top: 30px;
+}
+
 @media (max-width: 900px) {
     .visit-item {
         margin-bottom: 2.865rem;
@@ -6413,6 +6420,11 @@ html {
     opacity: 1;
     pointer-events: none;
 }
+
+.hide {
+    display: none;
+}
+
 @media (max-width: 900px) {
     .modal__close {
         top: 1rem;
