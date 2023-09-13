@@ -79,7 +79,7 @@ export class QuizComponent {
     this.answers.push(this.selectedMessenger)
     this.answers.push(phoneNumber)
 
-    this.http.post(`http://0.0.0.0:8000/saveOrder`, {anwers: this.answers}).subscribe((response: any) => {
+    this.http.post(`http://194.28.87.127:8000/saveOrder`, {answers: this.answers}).subscribe((response: any) => {
       this.selectedMessenger = '';
       this.answers = []
       this.currentQuestion = 0;
